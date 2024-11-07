@@ -10,20 +10,3 @@ public class Main {
         myCar1.acelerate();
     }
 }
-
-class Car {
-    String model;
-
-    public Car(String model) {
-        this.model = model;
-        System.out.println("Car created");
-    }
-
-    public String toString() {
-        return model;
-    }
-    
-    public void acelerate(){
-        System.out.println("Acelerando o " + this.model + " na BR a 180Km/h");
-    }
-}
