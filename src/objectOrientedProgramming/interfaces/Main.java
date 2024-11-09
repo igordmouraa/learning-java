@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         // Car myCar = new Sandero();
         // Car myCar1 = new Mobi();
-        Car myBrokenCar = null;
+        Car myBrokenCar = new Sandero();
 
         LivingBeing myBeing = new Human();
         myBeing.breathe();
