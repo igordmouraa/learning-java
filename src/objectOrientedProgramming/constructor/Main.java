@@ -6,7 +6,11 @@ public class Main {
         Car myCar = new Car("Corsa");
         Car myCar1 = new Car("Vectra");
 
+        Bike myBike = new Bike("Caloi");
+
         myCar.acelerate();
         myCar1.acelerate();
+
+        myBike.acelerateBike();
     }
 }

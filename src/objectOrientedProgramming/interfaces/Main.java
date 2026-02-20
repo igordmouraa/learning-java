@@ -5,18 +5,21 @@ public class Main {
     public static void main(String[] args) {
         // Car myCar = new Sandero();
         // Car myCar1 = new Mobi();
-        Car myBrokenCar = new Sandero();
+//        Car myBrokenCar = new Sandero();
 
-        LivingBeing myBeing = new Human();
-        myBeing.breathe();
+        Bike myBike = new Caloi();
+        myBike.acelerateBike();
+
+//        LivingBeing myBeing = new Human();
+//        myBeing.breathe();
 
         // for(int i = 0; i < 11; i++) myCar.acelerate();
 
-        try {
-            myBrokenCar.acelerate();
-        } catch (NullPointerException exception) {
-            System.out.println("Vendendo carro quebrado");
-        }
+//        try {
+//            myBrokenCar.acelerate();
+//        } catch (NullPointerException exception) {
+//            System.out.println("Vendendo carro quebrado");
+//        }
 
     }
 }

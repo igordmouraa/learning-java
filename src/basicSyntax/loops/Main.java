@@ -1,4 +1,4 @@
-package loops;
+package basicSyntax.loops;
 
 import java.util.ArrayList;
 
@@ -12,18 +12,18 @@ public class Main {
         names.add("Arthur");
 
 
-        // for(int i = 0; i < names.size(); i++){
-        //     System.out.println(names.get(i));
-        // }
+//         for(int i = 0; i < names.size(); i++){
+//             System.out.println(names.get(i));
+//         }
 
-        // for(String name: names){
-        //     System.out.println("Name: " + name);
-        // }
+//         for(String name: names){
+//             System.out.println("Name: " + name);
+//         }
 
-        int count = 0;
-        while (count < 5) {
-            System.out.println("I'm on while");
-            count++;
-        }
+//        int count = 0;
+//        while (count < 15) {
+//            System.out.println("I'm still on while");
+//            count++;
+//        }
     }
 }

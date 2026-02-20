@@ -1,4 +1,4 @@
-package conditionals;
+package basicSyntax.conditionals;
 
 public class Main {
     public static void main(String[] args) {

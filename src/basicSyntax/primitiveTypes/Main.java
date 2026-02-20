@@ -1,4 +1,4 @@
-package primitiveTypes;
+package basicSyntax.primitiveTypes;
 
 public class Main {
     public static void main(String[] args) {
